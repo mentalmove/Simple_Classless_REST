@@ -25,6 +25,11 @@
     
     /*  */
     
+    /**
+     * IN PRODUCTION USAGE, MESSAGES WOULD
+     *      **NEVER**
+     * BE DELETED BUT MARKED AS INACTIVE
+     */
     function delete () {
         
         $id = (int) $_POST['id'];
